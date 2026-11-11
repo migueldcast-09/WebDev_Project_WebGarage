@@ -1,8 +1,10 @@
 body{
     background-color:grey;
+    font-family: 'verdana',sans-serif;
 }
+
 .bg {
-    background-image: url("Images/successful-handsome-man-by-car.jpg");
+    background-image: url("Images/Bg.jpg");
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -14,11 +16,11 @@ body{
     justify-content: space-between; 
     text-align: center;
     padding: 20px;
-    background-color: crimson;
+    background-color: whitesmoke;
     font-family: 'Monsterrat', sans-serif;
     border-top:1/2rem;
     border-bottom:100px;
-    border-color:white;
+    border-color:rgb(110, 108, 108);
     border-width:0.35vw;
     border-style: dotted;
 }
@@ -53,10 +55,44 @@ body{
     height: 20px;
 }
 
+.car-container {
+    text-align: center;
+    width: 850px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.car-image {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 30px
+}
+
+.car-details {
+    text-align: left;
+    font-size: 13px;
+    background-color: #f2f2f2;
+    padding: 8px;
+    margin-top: 0;
+}
+
+.car-details summary {
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.car-details ul {
+    font-size: 12px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+
 .Why{
     text-align: center;
     padding:20px;
-    background-color: crimson;
+    background-color: rgb(110, 108, 108);
     border-radius:20px;
     width:500px;
     align-items: right;
@@ -66,14 +102,14 @@ body{
     text-align:left;
     padding:20px;
     width:500px;
-    background-color: crimson;
+    background-color: rgb(110, 108, 108);
     border-radius:20px;
 }
 
 .About{
     text-align: right;
     padding:20px;
-    background-color: crimson;
+    background-color: rgb(110, 108, 108);
     border-radius:20px;
     width:500px;
 }
